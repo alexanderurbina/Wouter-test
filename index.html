@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Imprimu</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="./assets/icon.png" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="main-section">
+    <nav class="navbar custom-navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <div class="logo">
+          <a class="navbar-item" href="https://bulma.io">
+            <img src="./assets/logo.png" width="112" height="28">
+          </a>
+        </div>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div class="content">
+        <img src="./assets/header.png" alt="Feliz dia del padre" width="100%">
+      </div>
+
+      <div class="navbar-end font has-text-weight-bold">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link font	has-text-weight-bold ">
+            Products
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              Shoes
+            </a>
+            <a class="navbar-item">
+              Phones
+            </a>
+            <a class="navbar-item">
+              Laptops
+            </a>
+            <a class="navbar-item">
+              Clothing
+            </a>
+          </div>
+        </div>
+
+        <a class="navbar-item">
+          About us
+        </a>
+
+        <a class="navbar-item">
+          Sing up
+        </a>
+
+        <a class="navbar-item">
+          Contact
+        </a>
+      </div>
+    </nav>
+  </section>
+
+  <section class="middle is-large">
+    <div class="container has-text-centered">
+      <h1 class="title is-size-1 font	has-text-weight-bold has-text-info">Select your gift!</h1>
+      <div class="content">
+        <div class="columns">
+          <div class="column">
+            <img src="assets/item1.png" alt="Product">
+          </div>
+          <div class="column">
+            <img src="assets/item2.png" alt="Product">
+          </div>
+          <div class="column">
+            <img src="assets/item3.png" alt="Product">
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <img src="assets/item4.png" alt="Product">
+          </div>
+          <div class="column">
+            <img src="assets/item5.png" alt="Product">
+          </div>
+          <div class="column">
+            <img src="assets/item6.png" alt="Product">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about has-background-primary is-large">
+    <div class="container">
+      <div class="columns">
+        <div class="column  has-background-white">
+          <div class="content">
+            <h1 class="title font is-size-1	has-text-weight-bold font has-text-black">About us</h1>
+            <p class="font"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus magni perferendis,
+              possimus
+              labore quidem, animi consectetur error consequuntur qui repellat cumque hic. Soluta rerum, iste
+              provident tempore tempora voluptatibus eos.</p>
+            <button class="button is-rounded is-black is-size-3 is-hovered">Learn more</button>
+          </div>
+        </div>
+        <div class="column">
+          <img src="assets/mid-logo.png" alt="Im soluciones graficas">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-works">
+    <div class="container ">
+      <div class="content has-text-centered ">
+        <h1 class="title font is-size-1	has-text-weight-bold font has-text-danger">How it works</h1>
+        <div class="content has-background-light">
+          <div class="columns">
+            <div class="column">
+              <img src="assets/gift.png" alt="gift">
+              <div class="content">
+                <p class="font has-text-weight-bold">Elige un producto incrible</p>
+              </div>
+            </div>
+            <div class="column">
+              <img src="assets/box.png" alt="box">
+              <div class="content">
+                <p class="font has-text-weight-bold">Completa la información de envío</p>
+              </div>
+            </div>
+            <div class="column">
+              <img src="assets/cart.png" alt="cart">
+              <div class="content">
+                <p class="font has-text-weight-bold">Recibe un link para pago</p>
+              </div>
+            </div>
+            <div class="column">
+              <img src="assets/truck.png" alt="truck">
+              <div class="content">
+                <p class="font has-text-weight-bold">Relájate mientras lo enviamos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer has-text-centered has-background-white">
+    <div class="container">
+      <h1 class="title is-size-1	has-text-weight-bold font has-text-grey-lighter"> Footer here</h1>
+    </div>
+  </footer>
+
+  <div class="container">
+    <div id="image-modal" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title">Modal title</p>
+          </header>
+          <section class="modal-card-body">
+            <!-- Content ... -->
+          </section>
+          <footer class="modal-card-foot">
+            <button class="button is-success">Save changes</button>
+            <button class="button">Cancel</button>
+          </footer>
+        </div>
+      </div>
+      <button id="image-modal-close" class="modal-close"></button>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="lib/main.js"></script>
+</body>
+
+</html>
