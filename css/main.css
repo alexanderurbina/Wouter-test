@@ -6953,20 +6953,24 @@ label.panel-block {
     margin-right: auto;
   }
 
+  .footer .columns {
+    flex-flow: row-reverse;
+  }
+
   .footer .info{
     height: auto;
     border-left: solid 2px #88888850;
     border-right: solid 2px #88888850;
   }
 
-  .footer .info .container{
+  .footer .contact .container{
     width: 75%;
     flex-flow: column;
     justify-content: center;
     align-items: center;
   }
 
-  .footer .info .container label {
+  .footer .contact .container label {
     margin-right: 3%;
   }
   
